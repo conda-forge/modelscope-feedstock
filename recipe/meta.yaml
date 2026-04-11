@@ -1,5 +1,5 @@
 {% set name = "modelscope" %}
-{% set version = "1.35.3" %}
+{% set version = "1.35.4" %}
 
 package:
   name: {{ name|lower }}
@@ -8,7 +8,7 @@ package:
 source:
   # The one on PyPI doesn't include setup.py.
   url: https://github.com/{{ name }}/{{ name }}/archive/refs/tags/v{{ version }}.tar.gz
-  sha256: 8834cf20a2cb6c0b8f18b75ac2162e9479d729b7bd2a59f86e1b8710a133f3a2
+  sha256: 2eb02c11836eaec2cd09d7e0d108ebd9fa64ae47f274acd07eed41677fef925f
 
 build:
   number: 0
